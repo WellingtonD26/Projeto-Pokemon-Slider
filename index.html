@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex do Uelito</title>
+    <link rel="shortcut icon" href="src/imagens/pokebola.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <img src="src/imagens/pokebola.png" alt="pokebola" class="pokebola">
+        <h1 class= "titulo"> Pokedex do Uelito</h1>
+    </header>
+    <main class="pokemon-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-pokemon">
+
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="vida">HP 300</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/pikachu.png" alt="pikachu" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+
+                    <p class="texto">Sempre que Pikachu encontra algo novo, ele explode com um choque de eletricidade. Se você se
+                        deparar com uma baga enegrecida, é evidência de que este Pokemon confundiu a intensidade de sua
+                        carga.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Charizard</h2>
+                    <p class="vida">HP 800</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/charizard.png" alt="charizard" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+
+                    <p class="texto">Charizard voa pelo céu em busca de oponentes poderosos. Ele cospe fogo de tão grande calor que
+                        derrete qualquer coisa. No entanto, ele nunca lança seu sopro de fogo em qualquer oponente mais
+                        fraco que ele.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Mewtwo</h2>
+                    <p class="vida">HP 1200</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/mewtwo.png" alt="mewtwo" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+
+                    <p class="texto">Mewtwo é um Pokemon que foi criado por manipulação genética. No entanto, mesmo que o poder
+                        científico dos humanos tenha criado o corpo deste Pokemon, eles não conseguiram dotar Mewtwo com
+                        um coração compassivo.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Greninja</h2>
+                    <p class="vida">HP 800</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/greninja.png" alt="Greninja" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+
+                    <p class="texto">Ele cria estrelas de arremesso de água comprimida. Quando as gira e as lança em alta velocidade,
+                        essas estrelas podem dividir o metal em dois. Também foi representado com a forma Ash-Greninja no anime.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-5">
+                <div class="informacoes">
+                    <h2 class="nome">Gardevoir</h2>
+                    <p class="vida">HP 700</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/gardevoir.png" alt="Gardevoir" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+
+                    <p class="texto">Gardevoir tem a capacidade de ler o futuro. Se ele sentir um perigo iminente para seu Treinador,
+                        diz-se que este Pokémon libera sua energia psicocinética com força total. Ganhou uma mega evolução nas versões X e Y de Nintendo 3ds.
+                    </p>
+                </div>
+            </li>
+            
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar">
+        </button>
+    </main>
+    
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
